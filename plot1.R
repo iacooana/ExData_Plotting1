@@ -1,7 +1,6 @@
 # Clear variables and load r packages used
 rm(list=ls(all=TRUE))
 library(graphics)
-library(data.table)
 
 # Read all data in
 data <- read.table("household_power_consumption.txt",header=TRUE, sep=";")
